@@ -62,11 +62,11 @@ export default function App() {
         <form>
           <Fieldset title="Is your cat an indoor or outdoor cat?">
             <Input
-              id="outdoor"
+              id="indoor"
               type="radio"
               name="indoor-outdoor"
-              value="outdoor"
-              label="Outdoor"
+              value="indoor"
+              label="Indoor"
               checked
             />
             <Input
@@ -83,8 +83,8 @@ export default function App() {
               type="checkbox"
               name="personality"
               value="loving"
-              checked
               label="Loving"
+              checked
             />
             <Input
               id="lazy"
