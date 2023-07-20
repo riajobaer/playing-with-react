@@ -1,4 +1,4 @@
-export default function Input({ id, type, name, value, checked, label }) {
+export default function Input({ id, type, name, value, checked, label, htmlFor }) {
   return (
     <>
       <input
